@@ -1,0 +1,41 @@
+.card_outer{
+    max-width: 1300px;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom:  1px solid lightgray;
+    padding: 40px 10px;
+    .card{
+            margin: 0 auto;
+            width: 85%;
+            display: flex;
+            justify-content: space-between;
+    .card_element{
+        display: flex;
+        flex-direction: column;
+        width: 200px;    
+    }
+
+    .card_ele_top{
+        display: flex;
+        margin-bottom: 15px;
+        font-weight: 500;
+        img{
+            margin-right: 10px;
+        }
+        h5{
+            font-size: 15px;
+        }
+    }
+
+    .card_ele_info p{
+        font-size: 13px;
+        margin-bottom: 5px;
+        letter-spacing: 0.2px;
+        font-weight: 400;
+    }
+}
+
+
+
+
+}

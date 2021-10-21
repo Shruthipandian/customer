@@ -1,0 +1,45 @@
+.buttons{
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+
+    .btn-ele{
+        width: 30%;
+        margin-left: auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        h5{
+           margin-left: 20px;        
+        }
+
+        .green{
+            color: #3eb489;
+        }
+
+        .gray{
+            color: gray;
+        }
+
+        .circle{
+            
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            margin-left: 20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 15px;
+            font-weight: 500;
+        }
+        .circle.active{
+            background-color: #3eb489;
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,182 @@
+.table{
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    
+    .table_heading{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        
+        h5{
+            font-size: 18px;
+            font-weight: 500;
+        
+        }
+
+        .help_icon{
+            display: flex;
+            align-items: center;
+
+            h5{
+                color: #3eb489;
+                font-size: 15px;
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .table_body{
+
+        .table_column_header{
+            display: flex;
+            width: 90%;
+            margin: 30px auto;
+            justify-content: space-between;
+
+            .col-12{
+                color: gray;
+                width: 130px;
+                margin: auto;
+                display: flex;
+                justify-content: flex-start;
+
+                h5{
+                    font-weight: 500;
+                    font-size: 13px;
+                }
+            }
+        }
+
+        .table_column{
+            background-color: white;
+            height: 60px;
+            width: 100%;
+            margin: 10px 0px;
+            box-shadow: 0px 3px 6px lightgray;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+
+            
+
+            .table_column_side{
+                padding: 3px;
+                border-radius: 5px;
+                width: 45px;
+                height: 19px;
+                text-align: center;
+                font-size: 12px;
+                margin-left: -8px;
+                position: absolute;
+                -ms-transform: rotate(-90deg); /* IE 9 */
+                            -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+                            transform: rotate(-90deg);
+                            img{
+
+                                background-color: white;
+                                padding: 6px;
+                                border-radius: 50%;
+                                margin-top: 3px;
+                                
+                                -ms-transform: rotate(90deg); /* IE 9 */
+                            -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+                            transform: rotate(90deg);
+                            }
+
+                            p{
+                                font-weight: 500;
+                                font-size: 11px;
+                            }
+            }
+
+
+
+            .table_column_header{
+                .col-12{
+                    width: 130px;
+                    display: flex;
+                    margin: auto;
+                    justify-content: flex-start;
+                    color: #171717;
+                }
+                .col-1{
+                    img{
+                        height: 12px;
+                        margin: auto 0 auto 10px;
+                    }
+                    h5{
+                        color: #3eb489;
+                    }
+                }                           
+                .col-2{
+                 img{
+                     width: 20px;
+                 }
+                }                
+                .col-3{
+                    img{
+                        margin-right: 10px;
+                    }
+                }                
+                .col-4{
+                    img{
+                        margin-right: 10px;
+                        height: 11px;
+                        border: 1px solid lightgray;
+                        padding: 2px 3px;
+                        border-radius: 5px;
+                    }
+                }                
+                .col-5{
+                    i{
+                        font-size: 10px;
+                        margin: auto 10px auto 0;
+                    }
+
+                    .green{
+                        color: #3eb489 ;
+                    }
+
+                    .orange{
+                        color: orange;
+
+                    }
+
+                    .red{
+                        color: red;
+                    }
+                }
+                .col-6{
+                    h5{
+                        font-weight: 700;
+                        color: black;
+                    }
+
+                }                     
+            }
+
+            .bg-gray{
+                background-color: lightgray;
+            }
+            .bg-black{
+                background-color: black;
+                color: white;
+            }
+
+            .bg-orange{
+                background-color: orange;
+                color: white;
+            }
+
+            }
+
+
+        }
+
+    }
+
+

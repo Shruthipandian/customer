@@ -1,0 +1,83 @@
+[
+{
+    "first_color" : "bg-gray",
+    "first_txt": "online",
+    "second_txt": "123456789",
+    "second_img": "./asset/corner-down-right.svg",
+    "third_txt": "05 maj, 12:33",
+    "four_img": "./asset/uk 1.svg",
+    "four_txt": "Butli X",
+    "five_img": "./asset/Qliro.svg",
+    "five_txt" : "Invoice",
+    "six_icon" : "red",
+    "six_txt" : "paid",
+    "seven_txt" : "2160 kr"
+
+
+},
+{
+    "first_color" : "bg-black",
+    "first_txt": "Instore",
+    "second_txt": "1234567890",
+    "second_img": "./asset/corner-down-right.svg",
+    "third_txt": "16 maj, 12:33",
+    "four_img": "./asset/svenska.svg",
+    "four_txt": "Butli X",
+    "five_img": "./asset/VISA.png",
+    "five_txt" : "Card, ****1234",
+    "six_icon" : "orange",
+    "six_txt" : "In process",
+    "seven_txt" : "3890 kr"
+},
+{   
+    "first_color" : "bg-orange",
+    "first_txt": "Manual",
+    "second_txt": "1234567890",
+    "second_img": "./asset/corner-down-right.svg",
+    "third_txt": "20 maj, 12:33",
+    "four_img": "./asset/Norska.svg",
+    "four_txt": "Butli X",
+    "five_img": "./asset/AMEX.png",
+    "five_txt" : "Card, ****1234",
+    "six_icon" : "red",
+    "six_txt" : "Failed",
+    "seven_txt" : "1134 kr"
+
+
+},
+
+{   
+    "first_color" : "bg-gray",
+    "first_txt": "Online",
+    "second_txt": "1234567890",
+    "second_img": "./asset/corner-down-right.svg",
+    "third_txt": "24 maj, 12:33",
+    "four_img": "./asset/Svenska.svg",
+    "four_txt": "Butli X",
+    "five_img": "./asset/paypal.png",
+    "five_txt" : "Paypal",
+    "six_icon" : "orange",
+    "six_txt" : "In progress",
+    "seven_txt" : "567 kr"
+
+
+},
+{   
+    "first_color" : "bg-black",
+    "first_txt": "Instore",
+    "second_txt": "1234567890",
+    "second_img": "./asset/corner-down-right.svg",
+    "third_txt": "30 maj, 12:33",
+    "four_img": "./asset/Norska.svg",
+    "four_txt": "Butli X",
+    "five_img": "./asset/Trustly_Checkout_Logotype_Horizontal_Black_RGB 1.svg",
+    "five_txt" : "Trustly",
+    "six_icon" : "green",
+    "six_txt" : "Paid",
+    "seven_txt" : "8970 kr"
+
+
+}
+
+
+]

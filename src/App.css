@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Medium";   /*Can be any text*/
+  src: local("Metropolis-Black"),
+    url("./fonts/Metropolis-master/Metropolis-Black.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Bold";   /*Can be any text*/
+  src: local("Metropolis-Bold"),
+    url("./fonts/Metropolis-master/Metropolis-Bold.otf") format("otf");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  /* font-family: Medium; */
+}
