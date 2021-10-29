@@ -46,6 +46,7 @@ function Table() {
                         <div className="table_column">
                     <div className={"table_column_side " + (post.first_color)}>
                         <p>{post.first_txt}</p>
+                        <img src={post.first_img} alt="" class={post.first_img_class}/>
                     </div>
                     <div className="table_column_header">
                     <div className="col-1 col-12">

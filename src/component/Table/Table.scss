@@ -1,3 +1,5 @@
+@import "../../golbal.scss";
+
 .table{
     width: 90%;
     max-width: 1300px;
@@ -22,7 +24,7 @@
             align-items: center;
 
             h5{
-                color: #3eb489;
+                color: $mintGreen;
                 font-size: 15px;
                 margin-left: 10px;
             }
@@ -52,11 +54,11 @@
         }
 
         .table_column{
-            background-color: white;
+            background-color: $white;
             height: 60px;
             width: 100%;
             margin: 10px 0px;
-            box-shadow: 0px 3px 6px lightgray;
+            box-shadow: 0px 3px 6px $lightgray;
             border-radius: 5px;
             display: flex;
             align-items: center;
@@ -75,9 +77,9 @@
                 -ms-transform: rotate(-90deg); /* IE 9 */
                             -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
                             transform: rotate(-90deg);
-                            img{
+                            .imge{
 
-                                background-color: white;
+                                background-color: $white;
                                 padding: 6px;
                                 border-radius: 50%;
                                 margin-top: 3px;
@@ -101,7 +103,7 @@
                     display: flex;
                     margin: auto;
                     justify-content: flex-start;
-                    color: #171717;
+                    color: $lightBlack;
                 }
                 .col-1{
                     img{
@@ -109,7 +111,7 @@
                         margin: auto 0 auto 10px;
                     }
                     h5{
-                        color: #3eb489;
+                        color: $mintGreen;
                     }
                 }                           
                 .col-2{
@@ -126,7 +128,7 @@
                     img{
                         margin-right: 10px;
                         height: 11px;
-                        border: 1px solid lightgray;
+                        border: 1px solid $lightgray;
                         padding: 2px 3px;
                         border-radius: 5px;
                     }
@@ -138,38 +140,38 @@
                     }
 
                     .green{
-                        color: #3eb489 ;
+                        color: $mintGreen ;
                     }
 
                     .orange{
-                        color: orange;
+                        color: $orange;
 
                     }
 
                     .red{
-                        color: red;
+                        color: $red;
                     }
                 }
                 .col-6{
                     h5{
                         font-weight: 700;
-                        color: black;
+                        color: $black;
                     }
 
                 }                     
             }
 
             .bg-gray{
-                background-color: lightgray;
+                background-color: $lightgray;
             }
             .bg-black{
-                background-color: black;
-                color: white;
+                background-color: $black;
+                color: $white;
             }
 
             .bg-orange{
-                background-color: orange;
-                color: white;
+                background-color: $orange;
+                color: $white;
             }
 
             }
